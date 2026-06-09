@@ -3,12 +3,12 @@
 
 **Preconditions:**
 
-- Link to the application's landing page
-- Prepare both a personal computer or a mobile device (use any OS currently at your possession)
-- Install a Browser (any type of browser will suffice for this type of test)
-- Establish a stable Internet connection
-- A pre-defined open election
-- A pre-defined voter account within the election masterlist
+- Link to the application's 'Landing' page
+- Either a personal computer or a mobile device (any type of OS will suffice for this type of test)
+- Web Browser (any type of browser will suffice for this type of test)
+- Stable Internet connection
+- Any pre-defined closed Elections
+- Any pre-defined eligible Voter
 
 <br/>
 
@@ -16,18 +16,17 @@ Scenario 1
 
  | \# | Step | Expected Behavior | 
  |----|------|-------------------|  
- |  1 | Open device | Verify if opened without technical issues successfully | 
- |  2 | Open browser | Verify if opened without technical issues successfully | 
- |  3 | Navigate to the application's 'Landing Page' | Verify if navigated successfully |  
- |  4 | Click on the 'Live Turnout' button | Verify if navigated successfully | 
- |  5 | View Information | Verify if all live-turnout related information can be viewed successfully | 
- |  6 | Vote on an election | Verify if the voter can vote successfully |  
- |  7 | Navigate back to the application's 'Landing Page' | Verify if navigated successfully |  
- |  8 | Click on the 'Live Turnout' button | Verify if navigated successfully | 
- |  9 | View Updated Information | Verify if any relevant metric has been updated successfully | 
-
+ |  1 | Open device | Verify if opened without technical issues | 
+ |  2 | Open browser | Verify if opened without technical issues | 
+ |  3 | Navigate to the 'Landing' page | Verify if the pre-supplied link navigates to the application's designated 'Landing' page |  
+ |  4 | Click on the 'Live Turnout' button of any pre-defined open Election | Verify if navigated to view 'Live Turnout' | 
+ |  5 | View Information | Verify if all live-turnout related Election information can be viewed | 
+ |  6 | Vote in an Election | Verify if an eligible Voter can make a vote |  
+ |  7 | Navigate back to the 'Landing' page | Verify if navigated |  
+ |  8 | Click on the 'Live Turnout' button of any pre-defined open Election | Verify if navigated to view 'Live Turnout' | 
+ 
 <br/>
 
 **Post-conditions:**
 
-- None at the moment
+- Live-turnout related Election information has been updated

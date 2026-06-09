@@ -17,7 +17,7 @@ Scenario 1
  |----|------|-------------------|  
  |  1 | Open device | Verify if opened without technical issues | 
  |  2 | Open browser | Verify if opened without technical issues | 
- |  3 | Navigate to the application's 'Landing' page | Verify if the pre-supplied link navigates to the application's designated 'Landing' page |  
+ |  3 | Navigate to the 'Landing' page | Verify if the pre-supplied link navigates to the application's designated 'Landing' page |  
  |  4 | Navigate towards the 'Recent History' section within the 'Landing' page | Verify if any archived Elections can be found |
  |  5 | Download report | Verify if the results can be downloaded | 
  |  6 | View report | Verify if all relevant Election information can be found | 
