@@ -6,7 +6,7 @@
 - Link to the application's landing page
 - Prepare both a personal computer and a mobile device (use any OS currently at your possession)
 - Establish a stable Internet connection
-- Install Apple Safari Browser
+- Install the Apple Safari Browser on both hardware
 
 <br/>
 
