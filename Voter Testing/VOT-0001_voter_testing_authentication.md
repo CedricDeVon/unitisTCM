@@ -3,13 +3,13 @@
 
 **Preconditions:**
 
-- Link to the application's landing page
-- Prepare both a personal computer or a mobile device (use any OS currently at your possession)
-- Install a Browser (any type of browser will suffice for this type of test)
-- Establish a stable Internet connection
-- A pre-defined open election
-- A pre-defined voter found within an election masterlist
-- A pre-defined voter not found within an election masterlist
+- Link to the application's 'Landing' page
+- Either a personal computer or a mobile device (any type of OS will suffice for this type of test)
+- Web Browser (any type of browser will suffice for this type of test)
+- Stable Internet connection
+- A pre-defined open Election
+- A pre-defined eligible Voter
+- A pre-defined invalid Voter
 
 <br/>
 
@@ -17,12 +17,12 @@ Scenario 1 - Voter
 
  | \# | Step | Expected Behavior | 
  |----|------|-------------------|  
- |  1 | Open device | Verify if opened without technical issues successfully | 
- |  2 | Open browser | Verify if opened without technical issues successfully | 
- |  3 | Navigate to the application's 'Landing Page' | Verify if navigated successfully |  
- |  3 | Navigate to a selected election | Verify if navigated successfully |  
- |  4 | Supply the id within the 'Eligibity' component | Verify if input successfully | 
- |  5 | Verify if voter found | Verify if confirmation made if a voter is found within the masterlist | 
+ |  1 | Open device | Verify if opened without technical issues | 
+ |  2 | Open browser | Verify if opened without technical issues | 
+ |  3 | Navigate to the 'Landing' page | Verify if the pre-supplied link navigates to the application's designated 'Landing' page |   
+ |  3 | Navigate to a selected Election | Verify if navigated to page |  
+ |  4 | Supply all inputs within the 'Eligibity' section | Verify if all inputs are complete | 
+ |  5 | Verify if voter found | Verify if a 'Voter Found' notification is displayed | 
  
 <br/>
 
@@ -30,12 +30,12 @@ Scenario 2 - Non-Voter
 
  | \# | Step | Expected Behavior | 
  |----|------|-------------------|  
- |  1 | Open device | Verify if opened without technical issues successfully | 
- |  2 | Open browser | Verify if opened without technical issues successfully | 
- |  3 | Navigate to the application's 'Landing Page' | Verify if navigated successfully |  
- |  3 | Navigate to a selected election | Verify if navigated successfully |  
- |  4 | Supply the id within the 'Eligibity' component | Verify if input successfully | 
- |  5 | Verify if voter not found | Verify if confirmation made if a voter is not found within the masterlist | 
+ |  1 | Open device | Verify if opened without technical issues | 
+ |  2 | Open browser | Verify if opened without technical issues | 
+ |  3 | Navigate to the 'Landing' page | Verify if the pre-supplied link navigates to the application's designated 'Landing' page |   
+ |  3 | Navigate to a selected Election | Verify if navigated to page |  
+ |  4 | Supply all inputs within the 'Eligibity' section | Verify if all inputs are complete | 
+ |  5 | Verify if voter not found | Verify if a 'Voter Not Found' notification is displayed | 
   
 <br/>
 
@@ -43,11 +43,17 @@ Scenario 3 - Already Voted
 
  | \# | Step | Expected Behavior | 
  |----|------|-------------------|  
- |  1 | Open device | Verify if opened without technical issues successfully | 
- |  2 | Open browser | Verify if opened without technical issues successfully | 
- |  3 | Navigate to the application's 'Landing Page' | Verify if navigated successfully |  
- |  3 | Navigate to a selected election | Verify if navigated successfully |  
- |  4 | Supply the id within the 'Eligibity' component | Verify if input successfully | 
- |  5 | Verify if voter already voted | Verify if confirmation made if a voter has already voted | 
+ |  1 | Open device | Verify if opened without technical issues | 
+ |  2 | Open browser | Verify if opened without technical issues | 
+ |  3 | Navigate to the 'Landing' page | Verify if the pre-supplied link navigates to the application's designated 'Landing' page |   
+ |  3 | Navigate to a selected Election | Verify if navigated to page |  
+ |  4 | Supply all inputs within the 'Eligibity' section | Verify if all inputs are complete | 
+ |  5 | Verify if voter already voted | Verify if a 'Voter Already Voted' notification is displayed | 
  
 <br/>
+
+**Post-conditions:**
+- Verify if a 'Voter Found' notification is displayed
+- Verify if a 'Voter Not Found' notification is displayed
+- Verify if a 'Voter Already Voted' notification is displayed
+

@@ -3,12 +3,12 @@
 
 **Preconditions:**
 
-- Link to the application's landing page
-- Prepare both a personal computer or a mobile device (use any OS currently at your possession)
-- Install a Browser (any type of browser will suffice for this type of test)
-- Establish a stable Internet connection
-- A pre-defined open election
-- A pre-defined voter found within an election masterlist
+- Link to the application's 'Landing' page
+- Either a personal computer or a mobile device (any type of OS will suffice for this type of test)
+- Web Browser (any type of browser will suffice for this type of test)
+- Stable Internet connection
+- A pre-defined open Election
+- A pre-defined eligible Voter
 
 <br/>
 
@@ -16,15 +16,15 @@ Scenario 1
 
  | \# | Step | Expected Behavior | 
  |----|------|-------------------|  
- |  1 | Open device | Verify if opened without technical issues successfully | 
- |  2 | Open browser | Verify if opened without technical issues successfully | 
- |  3 | Navigate to the application's 'Landing Page' | Verify if navigated successfully |  
- |  3 | Navigate to a selected election | Verify if navigated successfully |  
- |  4 | Supply the id within the 'Eligibity' component | Verify if input successfully | 
- |  5 | Verify if voter already voted | Verify if confirmation made if a voter has already voted | 
+ |  1 | Open device | Verify if opened without technical issues | 
+ |  2 | Open browser | Verify if opened without technical issues | 
+ |  3 | Navigate to the 'Landing' page | Verify if the pre-supplied link navigates to the application's designated 'Landing' page |   
+ |  3 | Navigate to a selected Election | Verify if navigated to page |  
+ |  4 | Supply all inputs within the 'Eligibity' section | Verify if all inputs are complete | 
+ |  5 | Click on the 'Check Eligiblity' buttun within the 'Eligibility' section | Verify if action can be triggered | 
  
 <br/>
 
 **Post-conditions:**
 
-- None at the moment
+- Verify if a 'Voter Already Vote' notification is displayed
