@@ -28,3 +28,7 @@ Scenario 1
  |  9 | View Information | Verify if information can be viewed successfully | 
 
 <br/>
+
+**Post-conditions:**
+
+- None at the moment
