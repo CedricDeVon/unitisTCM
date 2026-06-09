@@ -3,11 +3,11 @@
 
 **Preconditions:**
 
-- Link to the application's landing page
-- Prepare both a personal computer or a mobile device (use any OS currently at your possession)
-- Install a Browser (any type of browser will suffice for this type of test)
-- Establish a stable Internet connection
-- A pre-defined closed election
+- Link to the application's 'Landing' page
+- Either a personal computer or a mobile device (any type of OS will suffice for this type of test)
+- Web Browser (any type of browser will suffice for this type of test)
+- Stable Internet connection
+- A pre-defined closed Election
 
 <br/>
 
@@ -15,15 +15,13 @@ Scenario 1
 
  | \# | Step | Expected Behavior | 
  |----|------|-------------------|  
- |  1 | Open device | Verify if opened without technical issues successfully | 
- |  2 | Open browser | Verify if opened without technical issues successfully | 
- |  3 | Navigate to the application's 'Landing Page' | Verify if navigated successfully |  
- |  4 | Download any archived election results | Verify if navigated successfully | 
- |  5 | View Information | Verify if information can be viewed successfully | 
+ |  1 | Open device | Verify if opened without technical issues | 
+ |  2 | Open browser | Verify if opened without technical issues | 
+ |  3 | Navigate to the 'Landing' page | Verify if the pre-supplied link navigates to the application's designated 'Landing' page |  
+ |  4 | Download archived Election results | Verify if download in progress | 
  
-
 <br/>
 
 **Post-conditions:**
 
-- None at the moment
+- Verify if archived Election results information can be viewed

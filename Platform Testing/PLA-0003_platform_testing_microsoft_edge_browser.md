@@ -14,8 +14,8 @@ Scenario 1 - Personal Computer
 
  | \# | Step | Expected Behavior | 
  |----|------|-------------------|  
- |  1 | Open selected scenario device | Verify if opened without technical issues successfully | 
- |  2 | Open selected test browser | Verify if opened without technical issues successfully | 
+ |  1 | Open selected scenario device | Verify if opened without technical issues | 
+ |  2 | Open selected test browser | Verify if opened without technical issues | 
  |  3 | Navigate to the 'Landing' page | Verify if the pre-supplied link navigates to the application's designated 'Landing' page |  
  |  4 | Reload landing page | Verify if no visual anomalies can be found | 
 
@@ -25,10 +25,10 @@ Scenario 2 - Mobile Device
 
  | \# | Step | Expected Behavior | 
  |----|------|-------------------|  
- |  1 | Open selected scenario device | Verify if opened without technical issues successfully | 
- |  2 | Open selected test browser | Verify if opened without technical issues successfully | 
+ |  1 | Open selected scenario device | Verify if opened without technical issues | 
+ |  2 | Open selected test browser | Verify if opened without technical issues | 
  |  3 | Navigate to the 'Landing' page | Verify if the pre-supplied link navigates to the application's designated 'Landing' page |  
- |  4 | Reload landing page | Verify if no visual anomalies can be found successfully | 
+ |  4 | Reload landing page | Verify if no visual anomalies can be found | 
 
 <br/>
 
