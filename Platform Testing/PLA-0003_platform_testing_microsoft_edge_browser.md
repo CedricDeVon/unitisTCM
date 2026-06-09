@@ -3,9 +3,9 @@
 
 **Preconditions:**
 
-- Link to the application's landing page
-- Prepare both a personal computer and a mobile device (use any OS currently at your possession)
-- Establish a stable Internet connection
+- Link to the application's 'Landing' page
+- Both a personal computer and a mobile device (use any OS currently at your possession)
+- Stable Internet connection
 - Install the Microsoft Edge Browser on both hardware
 
 <br/>
@@ -16,7 +16,7 @@ Scenario 1 - Personal Computer
  |----|------|-------------------|  
  |  1 | Open selected scenario device | Verify if opened without technical issues successfully | 
  |  2 | Open selected test browser | Verify if opened without technical issues successfully | 
- |  3 | Navigate to the application's landing page | Verify if it leads to the application's designated landing page successfully |  
+ |  3 | Navigate to the 'Landing' page | Verify if the pre-supplied link navigates to the application's designated 'Landing' page |  
  |  4 | Reload landing page | Verify if no visual anomalies can be found | 
 
 <br/>
@@ -27,11 +27,11 @@ Scenario 2 - Mobile Device
  |----|------|-------------------|  
  |  1 | Open selected scenario device | Verify if opened without technical issues successfully | 
  |  2 | Open selected test browser | Verify if opened without technical issues successfully | 
- |  3 | Navigate to the application's landing page | Verify if it leads to the application's designated landing page successfully |  
+ |  3 | Navigate to the 'Landing' page | Verify if the pre-supplied link navigates to the application's designated 'Landing' page |  
  |  4 | Reload landing page | Verify if no visual anomalies can be found successfully | 
 
 <br/>
 
 **Post-conditions:**
 
-- None at the moment
+- Verify if no visual anomalies can be found on all hardware types
